@@ -6,19 +6,19 @@
   <meta name="theme-color" content="#2a140e">
   <meta name="description" content="Аманкул менен Айгеримдин үйлөнүү тоюна чакыруу — 2026-жылдын 19-сентябры, Рим рестораны, Бишкек">
 
-  <!-- Open Graph / Превью в мессенджерах (1200x630) -->
+  <!-- Open Graph / Превью в WhatsApp и Telegram (1200x630) -->
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://amur-jpg.github.io/invitation/preview.jpg">
+  <meta property="og:url" content="https://amur-jpg.github.io/invitation/">
   <meta property="og:site_name" content="Аманкул &amp; Айгерим">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:title" content="Аманкул &amp; Айгерим — 19.09.2026">
-  <meta property="og:description" content="Приглашение на свадьбу — 19 сентября 2026, ресторан «Рим», Бишкек.">
-  <meta name="twitter:image" content="https://amur-jpg.github.io/invitation/preview.jpg">
+  <meta property="og:description" content="Аманкул менен Айгеримдин үйлөнүү тоюна чакыруу — 2026-жылдын 19-сентябры">
+  <meta property="og:image" content="https://amur-jpg.github.io/invitation/preview.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/jpeg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://amur-jpg.github.io/invitation/preview-2.jpg">
+  <meta name="twitter:image" content="https://amur-jpg.github.io/invitation/preview.jpg">
 
   <title>Аманкул &amp; Айгерим — 19.09.2026</title>
   
@@ -39,9 +39,11 @@
       --script: 'Marck Script', 'Cormorant Garamond', cursive;
     }
 
-    body {
+    html, body {
       margin: 0;
       padding: 0;
+      width: 100%;
+      min-height: 100%;
       background-color: var(--walnut);
       color: var(--felt);
       font-family: var(--body);
@@ -50,9 +52,9 @@
       text-align: center;
     }
 
-    .container {
-      padding: 20px;
-      max-width: 600px;
+    .section {
+      padding: 60px 20px;
+      max-width: 700px;
       margin: 0 auto;
       box-sizing: border-box;
     }
@@ -60,24 +62,75 @@
     h1 {
       font-family: var(--display);
       color: var(--gold);
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-family: var(--display);
+      color: var(--gold);
+      font-size: 2rem;
+      margin-top: 40px;
+      margin-bottom: 15px;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    .names {
+      font-family: var(--script);
+      font-size: 3.5rem;
+      color: var(--gold);
+      margin: 20px 0;
+    }
+
+    .divider {
+      width: 80px;
+      height: 2px;
+      background: var(--ochre);
+      margin: 30px auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background-color: var(--madder);
+      color: var(--felt);
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      border: 1px solid var(--ochre);
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
-    <h1>Аманкул &amp; Айгерим</h1>
-    <p>Үйлөнүү тоюна чакыруу — 2026-жылдын 19-сентябры</p>
-    <p>Ресторан «Рим», Бишкек ш.</p>
+  <div class="section">
+    <p>ҮЙЛӨНҮҮ ТОЙГО ЧАКЫРУУ</p>
+    <div class="names">Аманкул &amp; Айгерим</div>
+    <div class="divider"></div>
+    <p>Урматтуу коноктор!</p>
+    <p>Биздин кубанычыбызды тең бөлүшүп, үйлөнүү тоюбуздун кадырлуу коногу болуп кетүүгө чакырабыз.</p>
+  </div>
+
+  <div class="section">
+    <h2>ТОЙДУН УБАКТЫСЫ ЖАНА ДАРЕГИ</h2>
+    <p><strong>Күнү:</strong> 19-сентябрь, 2026-жыл</p>
+    <p><strong>Убактысы:</strong> 18:00</p>
+    <p><strong>Дареги:</strong> Бишкек ш., «Рим» рестораны</p>
+    <a href="https://2gis.kg/bishkek" target="_blank" class="btn">Картадан көрүү (2GIS)</a>
+  </div>
+
+  <div class="section">
+    <h2>ТАЙМЕР</h2>
+    <p>Тойго чейин калды:</p>
+    <p style="font-size: 1.8rem; color: var(--gold); font-weight: bold;">19.09.2026</p>
   </div>
 
 </body>
-</html>
 </html>
